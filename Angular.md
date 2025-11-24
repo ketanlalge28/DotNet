@@ -65,3 +65,26 @@
 | **Examples**            | Components you create — `app-header`, `app-login` | `ngClass`, `ngStyle`, `ngModel`                       | `*ngIf`, `*ngFor`, `*ngSwitch`                   |
 | **Usage**               | For building UI (screens, forms, pages)           | For styling, behavior changes                         | For loops, conditionals, and dynamic DOM changes |
 | **How it affects HTML** | Inserts a complete HTML template                  | Modifies properties, styles                           | Adds/removes elements                            |
+
+## What is a Decorator in Angular?
+- A decorator is a special function in Angular that is used to add metadata to a class, method, property, or parameter.
+- Decorators start with @.
+
+## Types of decorator
+- Class Decorators - Used to declare classes as Angular building blocks such as components, modules, directives, or services
+- Property Decorators = Used to decorate properties/variables inside a class.
+- Method Decorators = Used to decorate methods in a class.
+  @HostListener() → listens to events on the host element
+- Parameter Decorators = Used to decorate parameters of a constructor.
+
+## What are Lifecycle Hooks in Angular?
+- Lifecycle hooks allow you to run code at different stages of a component’s life (creation → update → destroy).
+
+1 → ngOnChanges
+2 → ngOnInit
+3 → ngDoCheck
+4 → ngAfterContentInit
+5 → ngAfterContentChecked
+6 → ngAfterViewInit
+7 → ngAfterViewChecked
+8 → ngOnDestroy
